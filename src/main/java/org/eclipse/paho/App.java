@@ -17,7 +17,7 @@ public class App
       String topic        = "MQTT Examples";
         String content      = "Message from MqttPublishSample";
         int qos             = 2;
-        String broker       = "ws://localhost:1883";
+        String broker       = "ws://iot.eclipse.org:80";
         String clientId     = "JavaSample";
         MemoryPersistence persistence = new MemoryPersistence();
 
