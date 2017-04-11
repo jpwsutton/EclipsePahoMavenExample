@@ -7,8 +7,8 @@ An example Maven Project that uses Eclipe Paho to publish a message to an MQTT b
  * Then to run it: ```java -cp target/my-app-1.0-SNAPSHOT-jar-with-dependencies.jar org.eclipse.paho.App```
 
 ## Change Dependency Version
-The ```pom.xml``` file currently references the Paho SNAPSHOT repository.
-To use the main release, change the repository url to: ```https://repo.eclipse.org/content/repositories/paho-releases/``` and change the dependency version to: ```1.0.2```.
+The ```pom.xml``` file currently references the Paho release repository.
+To use the SNAPSHOT release, change the repository url to: ```https://repo.eclipse.org/content/repositories/paho-snapshots/``` and change the dependency version to: ```1.1.2-SNAPSHOT```.
 
 
 ## Change the Protocol
