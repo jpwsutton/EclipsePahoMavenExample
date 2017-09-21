@@ -30,7 +30,7 @@ public class App
       String topic        = "MQTT Examples";
         String content      = "Message from MqttPublishSample";
         int qos             = 2;
-        String broker       = "tcp://iot.eclipse.org:1883";
+        String broker       = "wss://iot.eclipse.org:443";
         String clientId     = "JavaSample";
         MemoryPersistence persistence = new MemoryPersistence();
 
