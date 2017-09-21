@@ -8,7 +8,7 @@ An example Maven Project that uses Eclipe Paho to publish a message to an MQTT b
 
 ## Change Dependency Version
 The ```pom.xml``` file currently references the Paho release repository.
-To use the SNAPSHOT release, change the repository url to: ```https://repo.eclipse.org/content/repositories/paho-snapshots/``` and change the dependency version to: ```1.1.2-SNAPSHOT```.
+To use the SNAPSHOT release, change the repository url to: ```https://repo.eclipse.org/content/repositories/paho-snapshots/``` and change the dependency version to: ```1.2.1-SNAPSHOT```.
 
 
 ## Change the Protocol
